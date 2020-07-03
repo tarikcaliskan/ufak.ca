@@ -130,13 +130,15 @@ h1, h2 {
 .inputURL {
   height: 3rem;
   font-size: 1.2rem;
-  padding-left: 3rem;
+  padding-left: 3.5rem;
+  padding-right: 4.5rem;
   border: none;
   width: 100%;
   border-radius: 5px;
   -webkit-box-shadow:  0px 4px 15px -1px rgba(100,100,100,0.5);
   -moz-box-shadow:  0px 4px 15px -1px rgba(100,100,100,0.5);
   box-shadow: 0px 4px 15px -1px rgba(100,100,100,0.5);
+  font-weight: bold;
 }
 
 .convert-button {
