@@ -22,6 +22,9 @@ h1, h2 {
 .f-b {
   font-weight: bold;
 }
+.f-r {
+  font-weight: 400;
+}
 
 .f-bl {
   font-weight: 900;
@@ -60,7 +63,7 @@ h1, h2 {
 
 .main {
   flex: 8;
-  padding: 2rem
+  padding-bottom:6rem
 }
 
 .logo {
