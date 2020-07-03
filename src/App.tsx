@@ -1,11 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import UfakInput from './components/main/ufakInput';
+import Header from './components/header/header';
 
 function App() {
   return (
-    <div className="App">
-    Hello ufak.ca is hereeeeeee ! coming sooon
+    <div className="container flex flex-dir-col">
+      <Header />
+      <UfakInput />
     </div>
   );
 }
