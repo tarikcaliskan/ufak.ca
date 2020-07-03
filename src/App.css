@@ -139,7 +139,7 @@ h1, h2 {
   -webkit-box-shadow:  0px 4px 15px -1px rgba(100,100,100,0.5);
   -moz-box-shadow:  0px 4px 15px -1px rgba(100,100,100,0.5);
   box-shadow: 0px 4px 15px -1px rgba(100,100,100,0.5);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .convert-button {
