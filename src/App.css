@@ -106,6 +106,7 @@ h1, h2 {
   height: 3rem;
   border-radius: 8px;
   cursor: pointer;
+  transition: all 0.5s;
 }
 
 .signUp:hover {
@@ -123,14 +124,14 @@ h1, h2 {
 
 .inputURL-div img {
   position: absolute;
-  left: 0.5rem;
-  height: 2rem;
+  left: 0.7rem;
+  height: 1.8rem;
 }
 
 .inputURL {
   height: 3rem;
   font-size: 1.2rem;
-  padding-left: 3.5rem;
+  padding-left: 3.3rem;
   padding-right: 4.5rem;
   border: none;
   width: 100%;
