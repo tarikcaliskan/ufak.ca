@@ -7,9 +7,10 @@ html, body, #root, .App {
   font-family: 'Poppins', sans-serif;
 }
 
-input{
+input {
   font-family: 'Poppins', sans-serif;
 }
+
 /*General reset*/
 
 * {
@@ -25,6 +26,7 @@ h1, h2 {
 .f-b {
   font-weight: bold;
 }
+
 .f-r {
   font-weight: 400;
 }
@@ -66,7 +68,7 @@ h1, h2 {
 
 .main {
   flex: 8;
-  padding-bottom:6rem
+  padding-bottom: 6rem
 }
 
 .logo {
@@ -138,11 +140,11 @@ h1, h2 {
   padding-right: 4.5rem;
   border: none;
   width: 100%;
-  color:#0032FF;
+  color: #0032FF;
   border-radius: 5px;
-  -webkit-box-shadow:  0px 4px 15px -1px rgba(100,100,100,0.5);
-  -moz-box-shadow:  0px 4px 15px -1px rgba(100,100,100,0.5);
-  box-shadow: 0px 4px 15px -1px rgba(100,100,100,0.5);
+  -webkit-box-shadow: 0px 4px 15px -1px rgba(100, 100, 100, 0.5);
+  -moz-box-shadow: 0px 4px 15px -1px rgba(100, 100, 100, 0.5);
+  box-shadow: 0px 4px 15px -1px rgba(100, 100, 100, 0.5);
   font-weight: 400;
 }
 
@@ -159,4 +161,11 @@ h1, h2 {
 
 .convert-button:hover {
   opacity: 1;
+}
+
+#wave {
+  position: fixed;
+  min-width: 100%;
+  bottom: -3rem;
+  left: 0;
 }
