@@ -101,3 +101,18 @@ html, body, #root, .App {
 .signUp:hover {
   text-decoration: underline;
 }
+.inputURL-div{
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.inputURL-div img{
+  position: absolute;
+  left: 0.5rem;
+  height: 2rem;
+}
+.inputURL{
+  height: 3rem;
+  width: 700px;
+  padding-left: 3rem;
+}

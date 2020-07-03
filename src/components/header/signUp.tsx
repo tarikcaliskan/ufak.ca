@@ -1,6 +1,5 @@
 import '../../App.css';
 import React from "react"
-import Logo from "./logo"
 function SignUp() {
     return (
         <div className="signUp">
