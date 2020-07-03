@@ -116,6 +116,8 @@ h1, h2 {
   display: flex;
   position: relative;
   align-items: center;
+  width: 80%;
+  max-width: 700px;
   margin: 1rem 0;
 }
 
@@ -128,9 +130,9 @@ h1, h2 {
 .inputURL {
   height: 3rem;
   font-size: 1.2rem;
-  width: 700px;
   padding-left: 3rem;
   border: none;
+  width: 100%;
   border-radius: 5px;
   -webkit-box-shadow:  0px 4px 15px -1px rgba(100,100,100,0.5);
   -moz-box-shadow:  0px 4px 15px -1px rgba(100,100,100,0.5);
