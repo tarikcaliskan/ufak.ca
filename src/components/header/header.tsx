@@ -5,10 +5,12 @@ import SignIn from "./signIn"
 import SignUp from "./signUp"
 function Header() {
     return (
-        <header className="header flex justify-between">
+        <header className="header flex-center justify-between px-3">
             <Logo />
-            <SignIn />
-            <SignUp />
+            <div className="flex-center">
+                <SignIn />
+                <SignUp />
+            </div>
         </header>
     );
 }

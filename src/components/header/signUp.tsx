@@ -5,7 +5,6 @@ function SignUp() {
     return (
         <div className="signUp">
             <div className="signup-button">Kayıt Ol</div>
-
         </div>
     );
 }
