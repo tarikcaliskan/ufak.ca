@@ -15,6 +15,10 @@ html, body, #root, .App {
   box-sizing: border-box;
 }
 
+h1, h2 {
+  padding: 1rem;
+}
+
 .f-b {
   font-weight: bold;
 }
@@ -55,7 +59,8 @@ html, body, #root, .App {
 }
 
 .main {
-  flex: 8
+  flex: 8;
+  padding: 2rem
 }
 
 .logo {
@@ -85,9 +90,11 @@ html, body, #root, .App {
 .signIn:hover {
   opacity: 0.9;
 }
-.text-shadow{
+
+.text-shadow {
   text-shadow: 0px 1px 2px rgba(100, 100, 100, 0.5);
 }
+
 .signUp {
   display: flex;
   justify-content: center;
@@ -101,18 +108,43 @@ html, body, #root, .App {
 .signUp:hover {
   text-decoration: underline;
 }
-.inputURL-div{
+
+.inputURL-div {
   display: flex;
   position: relative;
   align-items: center;
+  margin: 1rem 0;
 }
-.inputURL-div img{
+
+.inputURL-div img {
   position: absolute;
   left: 0.5rem;
   height: 2rem;
 }
-.inputURL{
+
+.inputURL {
   height: 3rem;
+  font-size: 1.2rem;
   width: 700px;
   padding-left: 3rem;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.convert-button {
+  position: absolute;
+  font-size: 1.2rem;
+  opacity: 0.45;
+  height: 3rem;
+  right: 1rem;
+  cursor: pointer;
+  z-index: 9999;
+  transition: all 0.3s;
+}
+
+.convert-button:hover {
+  opacity: 1;
 }

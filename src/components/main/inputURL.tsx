@@ -7,7 +7,8 @@ function InputURL() {
     return (
         <div className="inputURL-div">
             <img src={Link}/>
-            <input className="inputURL" placeholder="Uzunca bir url gir" value={value} onChange={(e) => setValue(e.target.value)} />
+            <input className="inputURL" placeholder="https://" value={value} onChange={(e) => setValue(e.target.value)} />
+            <div className="convert-button">ufalt</div>
         </div>
     );
 }
