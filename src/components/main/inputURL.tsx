@@ -8,7 +8,7 @@ function InputURL() {
         <div className="inputURL-div">
             <img src={Link}/>
             <input className="inputURL" placeholder="https://" value={value} onChange={(e) => setValue(e.target.value)} />
-            <div className="convert-button">ufalt</div>
+            <div className="convert-button flex-center">ufalt</div>
         </div>
     );
 }
