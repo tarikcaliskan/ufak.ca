@@ -31,6 +31,9 @@ html, body, #root, .App {
 .flex-dir-col {
   flex-direction: column;
 }
+.justify-between{
+  justify-content: space-between;
+}
 .header{
   flex:2
 }
@@ -43,4 +46,7 @@ html, body, #root, .App {
 }
 .logo-img{
 width: 100%;
+}
+.signIn{
+  
 }
