@@ -4,7 +4,7 @@ import Logo from "./logo"
 function SignIn() {
     return (
         <div className="signIn">
-            <div className="signIn-button"> Giriş Yap</div>
+            <div className="signIn-button f-b"> Giriş Yap</div>
         </div>
     );
 }
